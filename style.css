@@ -50,7 +50,18 @@ h1{
 }
 .experience-item {
     width: 40%;
-    margin: 0 5%;
+    margin-left: 5%;
+    margin-right: 5%;
     box-shadow: 0px 0px 5px #ccc;
     padding: 20px;
 }
+#web-dev-exp{
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+#full-stack-exp{
+    border-left: 5px solid;
+    border-image: linear-gradient(cyan , blue);
+    border-image-slice: 1;

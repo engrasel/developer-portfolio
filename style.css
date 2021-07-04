@@ -11,6 +11,9 @@ h1{
     display: flex;
     margin-bottom: 100px;
 }
+.orange-color{
+    color: orange;
+}
 .half-width{
     width: 50%;
     padding-left: 5%;
@@ -39,4 +42,15 @@ h1{
 }
 .dream-big p{
     padding-right: 10%;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.experience-item {
+    width: 40%;
+    margin: 0 5%;
+    box-shadow: 0px 0px 5px #ccc;
+    padding: 20px;
 }
